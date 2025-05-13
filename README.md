@@ -1,62 +1,107 @@
-# Airbnb Clone Backend Documentation
+# 🏡 Airbnb Clone Backend - Features and Functionalities
 
-## Objective
-The objective of this project is to identify and document the key features and functionalities of the Airbnb Clone backend. This documentation serves as a comprehensive guide for developers and stakeholders involved in the project.
+This document outlines the key features and backend components of the Airbnb Clone project, as part of the ALX ProBackend program. The architecture supports secure user interactions, property listings, bookings, and admin control, as illustrated in the project diagram.
 
-## Key Features and Functionalities
-The Airbnb Clone backend needs to support the following key features and functionalities:
+---
 
-1. **User  Authentication**
-   - User registration (email/password and social media logins)
-   - User login and session management
-   - Role management (distinguishing between guests and hosts)
+## 📌 Project Objective
 
-2. **Property Management**
-   - Create, edit, and delete property listings
-   - Search and filter properties based on location, price, and amenities
-   - Display property details, including photos and descriptions
+To design and document a robust backend for the Airbnb Clone, including user roles, core features, and external integrations, with clear separation of concerns across all layers.
 
-3. **Booking System**
-   - Availability calendar for hosts to manage property availability
-   - Booking requests from guests for specific dates
-   - Payment processing integration for secure transactions
-   - Booking confirmation notifications for both guests and hosts
+---
 
-4. **Reviews and Ratings**
-   - Allow guests to leave reviews and ratings for properties
-   - Display reviews on property listings to assist future guests
+## 🧱 Core Components & Functionalities
 
-5. **User  Profiles**
-   - Profile management for users to update personal information
-   - Host dashboard for managing listings and bookings
+### 🔐 1. User Authentication
+- User Registration & Login
+- Role Management (Guest, Host, Admin)
 
-6. **Notifications**
-   - Email notifications for booking confirmations, cancellations, and reviews
-   - In-app notifications for important updates
+### 🌐 2. API Layer
+- REST API Endpoints
+- Authentication Middleware
 
-7. **Admin Panel**
-   - User management capabilities for admins (suspending or banning accounts)
-   - Property management oversight for all listings
-   - Analytics dashboard for insights into user activity and revenue
+### 🗃️ 3. Database
+- Users
+- Properties
+- Bookings
+- Reviews
+- Payments
 
-8. **API Development**
-   - RESTful API for frontend-backend communication
-   - Clear API documentation for developers
+### 🏠 4. Property Management
+- Create/Edit/Delete Properties
+- Search & Filter Properties
 
-9. **Security Measures**
-   - Data encryption for sensitive information
-   - Input validation to prevent security vulnerabilities
-   - Rate limiting to protect against abuse
+### 📆 5. Booking System
+- Availability Calendar
+- Booking Request Handling
+- Payment Process
 
-10. **Testing and Deployment**
-    - Unit and integration testing for all components
-    - Continuous integration/continuous deployment (CI/CD) setup
+### ✍️ 6. Reviews & Ratings
+- Write Reviews
+- Display Ratings
 
-## Instructions for Documentation
-1. **Review Project Requirements**: Familiarize yourself with the project requirements for the Airbnb Clone backend.
-2. **Create a Detailed Document**: Using [Draw.io](https://app.diagrams.net/), create a detailed diagram that lists all the features and functionalities the backend needs to support.
-3. **Export the Design**: Once your diagram is complete, export it as a PNG file.
-4. **Store the PNG File**: Save the exported PNG file in a directory called `features-and-functionalities/` within your GitHub repository named `alx-airbnb-project-documentation`.
+### 👤 7. User Profiles
+- Profile Management
+- Host Dashboard
 
-## Directory Structure
-Your GitHub repository should have the following structure:
+### 🔔 8. Notifications
+- Email Alerts
+- In-App Alerts
+
+### ⚙️ 9. Admin Panel
+- User Management
+- Property Management
+- Analytics & Insights
+
+### 🔌 10. External Services
+- Payment Gateway Integration
+- Email Services
+
+---
+
+## 👥 User Roles
+
+### 🧑 Guest User
+- Search Properties
+- Book Listings
+- Write Reviews
+
+### 🏘️ Host User
+- List Properties
+- Manage Bookings
+- Access Host Dashboard
+
+### 🛠️ Admin User
+- Manage Users
+- Manage Properties
+- Access Analytics Dashboard
+
+---
+
+## 🗂️ Visual Design
+
+The architecture and features are visually represented in the system design diagram below:
+
+📁 Diagram Path: `features-and-functionalities/Airbnb.drawio.png`
+
+![Airbnb Features Diagram](./features-and-functionalities/Airbnb.drawio.png)
+
+---
+
+## ✅ Deliverables
+
+- ✅ Documented features in this `README.md`
+- ✅ PNG diagram created with Draw.io
+- ✅ Diagram stored in `features-and-functionalities/` directory
+
+---
+
+## 🚀 Repository
+
+This documentation is part of the `alx-airbnb-project-documentation` repository.
+
+---
+
+## 👨‍💻 Author
+
+**Jeph** – ALX ProBackend Student | Aspiring Data Scientist & Backend Developer
